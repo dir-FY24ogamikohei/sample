@@ -7,8 +7,8 @@ public class ExceptionExample2 {
         
         try {
             System.out.println("割り算開始");
-            int a = divide(10, 0);
-            System.out.println(a);
+            
+            
         } catch (ArithmeticException e) {
             System.out.println("Arithmetic Exception caught: " + e.getMessage());
         } finally {
